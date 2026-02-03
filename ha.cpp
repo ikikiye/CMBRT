@@ -1,5 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
 int a;
 int b;
+int c;
 
-int c = a + b;
-print(c);
+int main () {
+    int c = a + b;
+    cout << c << endl;
+}
